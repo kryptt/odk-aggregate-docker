@@ -1,0 +1,9 @@
+apiVersion: skaffold/v1beta11
+kind: Config
+build:
+  artifacts:
+  - image: philips.com/aggregator
+deploy:
+  kubectl:
+    manifests:
+    - aggregator.yaml

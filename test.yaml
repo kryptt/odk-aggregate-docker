@@ -1,0 +1,4 @@
+metadataTest:
+  env:
+    - key: DB_HOSTNAME
+      value: 127.0.0.1
